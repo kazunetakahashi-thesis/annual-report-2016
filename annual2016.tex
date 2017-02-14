@@ -1,1 +1,296 @@
-%%--------------- Text starts from here ----------- %%%%%%%%%%%%%%%%%2016年度Annual Report用スタイルファイル%%%%%%%%%%%%%%%%%%%%%%%%%このFormatはpLaTex を使用しています。%以下に報告書の基本形が示してありますので、参考にしてお書き下さい。 %数字は２桁以上は全て半角で書いて下さい。 %文末の空白は必ず半角でお願いします。全角の空白は TeX では特殊文字と %判断して問題を起こすことがあります。%数式はかならずmath mode でお願いいたします。 %事務局では校正をせずにprint out したものをそのまま印刷に回しますので、 %一度コンパイルして、スペルチェック、校正は必ず行なって下さい。 %まとめの編集の都合上、\newcommand, \renewcommand, \def の追加等はさけて下さいま%すようお願いいたします。%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\documentclass[a4j,twocolumn]{jarticle}\usepackage{amssymb,amsmath}\textheight=25cm\textwidth=15cm\parskip=0mm\parindent=0mm\topmargin=-1cm\oddsidemargin=5mm\begin{document}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % 新しい連絡先% 2017年度から所属や連絡先が変わる予定の方は連絡先（住所・メールアドレス）%をご記入下さい。%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % 2016年度　東大数理における該当する身分を選択し、それ以外の項目は% 削除して下さい。%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 博士課程学生 (Doctoral Course Students)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % 氏名（ローマ字綴りで名字は全て大文字,名前は最初の字だけ大文字） % を書いて下さい.%{\bf 数理 太郎 (SURI Taro)}%学生で学振DC1・学振DC2に該当する者は記入をして下さい。%学生でFMSPコース生に該当する者は記入して下さい。%\hspace{5cm}(学振DC1または学振DC2)%\hspace{5cm}(FMSPコース生)%というように%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% {\bf 高橋 和音 (TAKAHASHI Kazune)}\hspace{5cm}(FMSPコース生)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 索引用データ% 一人あたりAlphabet順索引・五十音順索引用に% ２行必要です。%% 日本人 % \index{アルファベット表記 (日本語表記)}% \index{かな読み@日本語表記}% 例% \index{TSUBOI Takashi (坪井 俊)}% \index{つぼいたかし@坪井 俊}%% 外国人(漢字表記なし)% \index{アルファベット表記}% \index{かな読み@カタカナ表記}% 例% \index{SUTHICHITRANONT Noppakhun}% \index{すってぃちとらのん@スッティチトラノン ノッパクン}%% 外国人(漢字表記あり)% \index{アルファベット表記 (漢字表記)}% \index{かな読み@カタカナ表記}% 例% \index{LI Xiaolong (李 曉龍)}% \index{りしゃおろん@リ シャオロン}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\index{TAKAHASHI Kazune (高橋 和音)}\index{たかはしかずね@高橋 和音}\vspace{0.2cm}\noindentA. 研究概要\vspace{0.1cm}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % 研究の要約を日本語で,その下に英訳をつけて書いて下さい.%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %和文%%\vspace{0.5cm}%英文%\begin{enumerate} \item[] \underline{Pertial differntial equations} \item {\bf Stand wave solutions of       nonlinear Schr\"{o}dinger-Poisson systems~[5]} \\       This is a joint work with Hiroyuki Miyahara (UTokyo).       We worked on stand wave solutions       of the following nonhomogeneous       nonlinear Schr\"{o}dinger-Poisson systems: \item {\bf Generalized Joseph–-Lundgren exponent~[1]} \\       This is a joint work with Prof.~Yasuhito Miyamoto (UTokyo).        \item {\bf Semilinear elliptic equations involving       critical Sobolev exponent~[3]~[4]} \\       I worked on the following       nonhomogeneous semilinear elliptic equation       involving the critical Sobolev exponent:       $-\Delta u + a u = b u^p + \lambda f$.       I proved that provided        $b$ achieves its maximum at an inner point of the       domain and $a$ has a growth of the exponent $q$       in some neighborhood of that point, then       if the dimension of the domain is less than $6 + 2q$,       there exist at least two positive solutions.       It seems to be new that the coefficient of a linear term affects       the dimension of the domain on which solutions exist. \item[] \underline{Mathematical informatics} \item {\bf Zero-dimentional fold and cut~[2]~[6]} \\       This is a joint work with       Yasuhiko Asao (UTokyo), Prof.~Erik D.~Demaine (MIT),       Prof.~Martin L.~Demaine (MIT), Hideaki Hosaka (Azabu High School),       Prof.~Akitoshi Kawamura (UTokyo)       and Prof.~Tomohiro Tachi (UTokyo). \item {\bf Application of SAT-solver for AI~[7]} \\       It is known that $n$-satisfiability problems are NP-hard       to solve for $n \geq 3$       but are solved quickly by SAT-solver in recent years.       I applied it for AI in the international       programming contest ``SamurAI Coding       2016--17'', which is held by Information       Processing Society of Japan. I made an algorithm on SAT-solver       to decide the hidden enemy logically       by observing which place is conquested.       It worked faster than a rudimentary algorithm by brute force.       The latter exceeds the time limit but       the formar does not. \item[] \underline{Social mathematics in FMSP} \item {\bf Control model for traffic lights} \\       This is a joint work with\end{enumerate}%\\%\vspace{0.2cm}\noindent B. 発表論文\vspace{0.1cm}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % 5年以内(2012〜2016年度)10篇まで書いて下さい。但し、2016年1月1日〜 % 2016年12月31日に出版されたものは、10篇を超えてもすべて含めて下さい。% 様式は以下の例のように% 著者・共著者名・ \lq\lq 題名・ジャーナル名・巻・年・ページの順に書いて下さい.% タイトルの前に著者・共著者名を入れる形です。% 共著の場合 T. Katsura and #.####などと書きwith 共著者名とはしない様に% お願い致します。%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %\begin{enumerate}%\item G. van der Geer and T. Katsura：\lq\lq On a stratification of %the moduli of K3 surfaces",%J.\ Eur.\ Math.\ Soc. {\bf 2} (2000) 259--290.%\end{enumerate}\begin{enumerate} \item[] {\bf Papers [Refereed]} \item Yasuhito Miyamoto and Kazune Takahashi: ``Generalized       Joseph-–Lundgren exponent and intersection properties for       supercritical quasilinear elliptic equations'',       Archiv der Mathematik {\bf 108} (2017) 71--83.  \item Yasuhiko Asao, Erik Demaine, Martin Demaine, Hideaki Hosaka,       Akitoshi Kawamura, Tomohiro Tachi and Kazune Takahashi:       ``Folding and Punching Paper'', Abstracts from the 19th Japan       Conference on Discrete and Computational Geometry, Graphs and       Games (2016) 40--41. \item Kazune Takahashi: ``Semilinear elliptic equations with critical       Sobolev exponent and non-homogeneous term'',       Master Thesis, The University of Tokyo (2015). \item[] {\bf Papers [Not-Refereed]} \item Kazune Takahashi: ``Semilinear elliptic equations with       critical Sobolev exponent and non-homogeneous term'',       to appear in RIMS K\^{o}ky\^{u}roku. \item[] {\bf Preprints} \item Hiroyuki Miyahara and Kazune Takahashi: ``Existence and       Nonexistence of Standing Wave Solutions of        Nonlinear Schr\"{o}dinger-Poisson System'', preprint. \item Yasuhiko Asao, Erik Demaine, Martin Demaine, Hideaki Hosaka,       Akitoshi Kawamura, Tomohiro Tachi and Kazune Takahashi:       ``Folding and Punching Paper'', submitted. \item[] {\bf Miscs} \item Kazune Takahashi: ``Application of SAT-solver for AI on SamurAI       Coding 2016--17'', (2017),       {\tt https:\slash\slash{}github.com\slash{}kazunetakahashi-thesis\slash{}SAT-solver-AI-project}.\end{enumerate}\vspace{0.2cm}\noindentC. 口頭発表\begin{enumerate} \item[] {\bf International Conference [Invited]} \item Semilinear elliptic equations with critical Sobolev exponent and       non-homogeneous term, RIMS Workshop: Shapes and other properties       of solutions of PDEs, RIMS, Kyoto University, Japan, Nov 2015.  \item[] {\bf International Conference [Not-invited]} \item (With Yasuhiko Asao, Erik Demaine, Martin Demaine, Hideaki       Hosaka, Akitoshi Kawamura, and Tomohiro Tachi)       Folding and Punching Paper, The 19th Japan Conference on Discrete       and Computational Geometry, Graphs, and Games, Tokyo University       of Science, Japan, Sep 2016. \item[] {\bf Domestic Conference [Invited]} \item Existence and Nonexistence of Standing Wave Solutions of       Nonlinear Schr\"{o}dinger-Poisson System,       The 39th Differential Equation Seminar at Yokohama National       University, Yokohama National University, Japan, Aug 2016.\end{enumerate}\vspace{0.1cm}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% シンポジュームや学外セミナーでの発表で5年以内(2012〜2016年度)10項目まで。 % タイトル・シンポジューム(またはセミナー等)名・場所・月・年を % 書いて下さい.国際会議の場合は国名をお願いします.タイトルは原題で。 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %\begin{enumerate}%\item (1) 曲面の写像類群とは, (2) 写像類群をめぐるこれまでの結果と夢,%Encounter with Mathematics 第11回, 中央大学理工学部,%1999年4,5月.%\end{enumerate}\vspace{0.2cm}\noindentD. 講義\vspace{0.1cm}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % 講義名, 講義の種類,簡単な内容説明を1,2行でお願いします。 % 講義の種類は, 数理大学院・4年生共通講義, 理学部2年生(後期)・3年生向け講義, % 教養学部前期課程講義, 教養学部基礎科学科講義, % 集中講義のいずれかでお願いします。% 集中講義の場合は,場所と時期もお願いします。%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\begin{enumerate}%<例>\item 代数幾何学・代数学XG : 代数幾何の入門講義,代数多様体の定義 % などのほか, 代数多様体の変形理論を扱った.(数理大学院・4年生共通講義) %\end{enumerate}\begin{enumerate}\item[] {\bf Teaching Assistant}\item Computational Mathematics I (Prof.~Shingo Ichii):I made new teaching materials for the script language Ruby.I updated the fast-moved attendance management system{\it Quiz Magic Attendance 3} by Ruby on Rails. (For third-year students in School of Sciences)\item Computational Mathematics II (Prof.~Shingo Ichii): I helped a third-year student to learn Ruby andto develop an introductory network application.(For third-year students in School of Sciences)\end{enumerate}\vspace{0.2cm}\noindentG. 受賞\begin{enumerate} \item[] {\bf International Programming Contests} \item SamurAI Coding 2014--15, World Final: 6th place, 77th Information       Processing Society of Japan National Convention, Kyoto       University, Japan, Mar 2015. \item[] {\bf Domestic Programming Contests} \item Code Runner 2015, Final Round: 1st place,       Recruit Career, Tokyo, Dec 2015. \item Code Runner 2014, Final Round: 7th place,       Recruit Career, Tokyo, Nov 2014. \item Code Festival 2014 AI Challenge, Final Round: 3rd place,       Recruit Holdings, Tokyo, Nov 2014.\end{enumerate}\vspace{0.1cm}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % 過去５年の間にありましたら書いて下さい。 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\end{document} 
+%%--------------- Text starts from here ----------- %%
+
+%%%%%%%%%%%%%%%2016年度Annual Report用スタイルファイル%%%%%%%%%%%%%%%%%%%%%%%%
+%このFormatはpLaTex を使用しています。
+%以下に報告書の基本形が示してありますので、参考にしてお書き下さい。 
+%数字は２桁以上は全て半角で書いて下さい。 
+%文末の空白は必ず半角でお願いします。全角の空白は TeX では特殊文字と 
+%判断して問題を起こすことがあります。
+%数式はかならずmath mode でお願いいたします。 
+%事務局では校正をせずにprint out したものをそのまま印刷に回しますので、 
+%一度コンパイルして、スペルチェック、校正は必ず行なって下さい。 
+%まとめの編集の都合上、\newcommand, \renewcommand, \def の追加等はさけて下さいま%すようお願いいたします。
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[a4j,twocolumn]{jarticle}
+
+\usepackage{amssymb,amsmath}
+\textheight=25cm
+\textwidth=15cm
+\parskip=0mm
+\parindent=0mm
+\topmargin=-1cm
+\oddsidemargin=5mm
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 新しい連絡先
+% 2017年度から所属や連絡先が変わる予定の方は連絡先（住所・メールアドレス）
+%をご記入下さい。
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 2016年度　東大数理における該当する身分を選択し、それ以外の項目は
+% 削除して下さい。
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+博士課程学生 (Doctoral Course Students)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 氏名（ローマ字綴りで名字は全て大文字,名前は最初の字だけ大文字） 
+% を書いて下さい.
+%{\bf 数理 太郎 (SURI Taro)}
+%学生で学振DC1・学振DC2に該当する者は記入をして下さい。
+%学生でFMSPコース生に該当する者は記入して下さい。
+%\hspace{5cm}(学振DC1または学振DC2)
+%\hspace{5cm}(FMSPコース生)
+%というように
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+{\bf 高橋 和音 (TAKAHASHI Kazune)}
+\hspace{5cm}(FMSPコース生)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 索引用データ
+% 一人あたりAlphabet順索引・五十音順索引用に
+% ２行必要です。
+%
+% 日本人 
+% \index{アルファベット表記 (日本語表記)}
+% \index{かな読み@日本語表記}
+% 例
+% \index{TSUBOI Takashi (坪井 俊)}
+% \index{つぼいたかし@坪井 俊}
+%
+% 外国人(漢字表記なし)
+% \index{アルファベット表記}
+% \index{かな読み@カタカナ表記}
+% 例
+% \index{SUTHICHITRANONT Noppakhun}
+% \index{すってぃちとらのん@スッティチトラノン ノッパクン}
+%
+% 外国人(漢字表記あり)
+% \index{アルファベット表記 (漢字表記)}
+% \index{かな読み@カタカナ表記}
+% 例
+% \index{LI Xiaolong (李 曉龍)}
+% \index{りしゃおろん@リ シャオロン}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\index{TAKAHASHI Kazune (高橋 和音)}
+\index{たかはしかずね@高橋 和音}
+
+\vspace{0.2cm}
+\noindent
+A. 研究概要
+
+\vspace{0.1cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 研究の要約を日本語で,その下に英訳をつけて書いて下さい.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%和文%
+%\vspace{0.5cm}
+%英文%
+
+\begin{enumerate}
+ \item[] \underline{Pertial differntial equations}
+ \item {\bf Stand wave solutions of
+       nonlinear Schr\"{o}dinger-Poisson systems~[5]} \\
+       This is a joint work with Hiroyuki Miyahara (UTokyo).
+       We worked on stand wave solutions
+       of the following nonhomogeneous
+       nonlinear Schr\"{o}dinger-Poisson systems:
+
+ \item {\bf Generalized Joseph–-Lundgren exponent~[1]} \\
+       This is a joint work with Prof.~Yasuhito Miyamoto (UTokyo).
+       
+
+ \item {\bf Semilinear elliptic equations involving
+       critical Sobolev exponent~[3]~[4]} \\
+       I worked on the following
+       nonhomogeneous semilinear elliptic equation
+       involving the critical Sobolev exponent:
+       $-\Delta u + a u = b u^p + \lambda f$.
+       I proved that provided 
+       $b$ achieves its maximum at an inner point of the
+       domain and $a$ has a growth of the exponent $q$
+       in some neighborhood of that point, then
+       if the dimension of the domain is less than $6 + 2q$,
+       there exist at least two positive solutions.
+       It seems to be new that the coefficient of a linear term affects
+       the dimension of the domain on which solutions exist.
+ \item[] \underline{Mathematical informatics}
+ \item {\bf Zero-dimentional fold and cut~[2]~[6]} \\
+       This is a joint work with
+       Yasuhiko Asao (UTokyo), Prof.~Erik D.~Demaine (MIT),
+       Prof.~Martin L.~Demaine (MIT), Hideaki Hosaka (Azabu High School),
+       Prof.~Akitoshi Kawamura (UTokyo)
+       and Prof.~Tomohiro Tachi (UTokyo).
+ \item {\bf Application of SAT-solver for AI~[7]} \\
+       It is known that $n$-satisfiability problems are NP-hard
+       to solve for $n \geq 3$
+       but are solved quickly by SAT-solver in recent years.
+       I applied it for AI in the international
+       programming contest ``SamurAI Coding
+       2016--17'', which is held by Information
+       Processing Society of Japan. I made an algorithm on SAT-solver
+       to decide the hidden enemy logically
+       by observing which place is conquested.
+       It worked faster than a rudimentary algorithm by brute force.
+       The latter exceeds the time limit but
+       the formar does not.
+ \item[] \underline{Social mathematics in FMSP}
+ \item {\bf Control model for traffic lights} \\
+       This is a joint work with
+\end{enumerate}
+
+%\\%
+\vspace{0.2cm}
+
+\noindent B. 発表論文
+
+\vspace{0.1cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 5年以内(2012〜2016年度)10篇まで書いて下さい。但し、2016年1月1日〜 
+% 2016年12月31日に出版されたものは、10篇を超えてもすべて含めて下さい。
+% 様式は以下の例のように
+% 著者・共著者名・ \lq\lq 題名・ジャーナル名・巻・年・ページの順に書いて下さい.
+% タイトルの前に著者・共著者名を入れる形です。
+% 共著の場合 T. Katsura and #.####などと書きwith 共著者名とはしない様に
+% お願い致します。
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%\begin{enumerate}
+%\item G. van der Geer and T. Katsura：\lq\lq On a stratification of 
+%the moduli of K3 surfaces",
+%J.\ Eur.\ Math.\ Soc. {\bf 2} (2000) 259--290.
+%\end{enumerate}
+
+\begin{enumerate}
+ \item[] {\bf Papers [Refereed]}
+ \item Yasuhito Miyamoto and Kazune Takahashi: ``Generalized
+       Joseph-–Lundgren exponent and intersection properties for
+       supercritical quasilinear elliptic equations'',
+       Archiv der Mathematik {\bf 108} (2017) 71--83. 
+ \item Yasuhiko Asao, Erik Demaine, Martin Demaine, Hideaki Hosaka,
+       Akitoshi Kawamura, Tomohiro Tachi and Kazune Takahashi:
+       ``Folding and Punching Paper'', Abstracts from the 19th Japan
+       Conference on Discrete and Computational Geometry, Graphs and
+       Games (2016) 40--41.
+ \item Kazune Takahashi: ``Semilinear elliptic equations with critical
+       Sobolev exponent and non-homogeneous term'',
+       Master Thesis, The University of Tokyo (2015).
+ \item[] {\bf Papers [Not-Refereed]}
+ \item Kazune Takahashi: ``Semilinear elliptic equations with
+       critical Sobolev exponent and non-homogeneous term'',
+       to appear in RIMS K\^{o}ky\^{u}roku.
+ \item[] {\bf Preprints}
+ \item Hiroyuki Miyahara and Kazune Takahashi: ``Existence and
+       Nonexistence of Standing Wave Solutions of 
+       Nonlinear Schr\"{o}dinger-Poisson System'', preprint.
+ \item Yasuhiko Asao, Erik Demaine, Martin Demaine, Hideaki Hosaka,
+       Akitoshi Kawamura, Tomohiro Tachi and Kazune Takahashi:
+       ``Folding and Punching Paper'', submitted.
+ \item[] {\bf Miscs}
+ \item Kazune Takahashi: ``Application of SAT-solver for AI on SamurAI
+       Coding 2016--17'', (2017),
+       {\tt https:\slash\slash{}github.com\slash{}kazunetakahashi-thesis\slash{}SAT-solver-AI-project}.
+\end{enumerate}
+
+\vspace{0.2cm}
+\noindent
+C. 口頭発表
+
+\begin{enumerate}
+ \item[] {\bf International Conference [Invited]}
+ \item Semilinear elliptic equations with critical Sobolev exponent and
+       non-homogeneous term, RIMS Workshop: Shapes and other properties
+       of solutions of PDEs, RIMS, Kyoto University, Japan, Nov 2015. 
+ \item[] {\bf International Conference [Not-invited]}
+ \item (With Yasuhiko Asao, Erik Demaine, Martin Demaine, Hideaki
+       Hosaka, Akitoshi Kawamura, and Tomohiro Tachi)
+       Folding and Punching Paper, The 19th Japan Conference on Discrete
+       and Computational Geometry, Graphs, and Games, Tokyo University
+       of Science, Japan, Sep 2016.
+ \item[] {\bf Domestic Conference [Invited]}
+ \item Existence and Nonexistence of Standing Wave Solutions of
+       Nonlinear Schr\"{o}dinger-Poisson System,
+       The 39th Differential Equation Seminar at Yokohama National
+       University, Yokohama National University, Japan, Aug 2016.
+\end{enumerate}
+
+
+
+\vspace{0.1cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% シンポジュームや学外セミナーでの発表で5年以内(2012〜2016年度)10項目まで。 
+% タイトル・シンポジューム(またはセミナー等)名・場所・月・年を 
+% 書いて下さい.国際会議の場合は国名をお願いします.タイトルは原題で。 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%\begin{enumerate}
+%\item (1) 曲面の写像類群とは, (2) 写像類群をめぐるこれまでの結果と夢,
+%Encounter with Mathematics 第11回, 中央大学理工学部,
+%1999年4,5月.
+%\end{enumerate}
+
+\vspace{0.2cm}
+\noindent
+D. 講義
+
+\vspace{0.1cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 講義名, 講義の種類,簡単な内容説明を1,2行でお願いします。 
+% 講義の種類は, 数理大学院・4年生共通講義, 理学部2年生(後期)・3年生向け講義, 
+% 教養学部前期課程講義, 教養学部基礎科学科講義, 
+% 集中講義のいずれかでお願いします。
+% 集中講義の場合は,場所と時期もお願いします。
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{enumerate}
+%<例>\item 代数幾何学・代数学XG : 代数幾何の入門講義,代数多様体の定義 
+% などのほか, 代数多様体の変形理論を扱った.(数理大学院・4年生共通講義) 
+%\end{enumerate}
+
+\begin{enumerate}
+\item[] {\bf Teaching Assistant}
+\item Computational Mathematics I (Prof.~Shingo Ichii):
+I made new teaching materials for the script language Ruby.
+I updated the fast-moved attendance management system
+{\it Quiz Magic Attendance 3} by Ruby on Rails. 
+(For third-year students in School of Sciences)
+\item Computational Mathematics II (Prof.~Shingo Ichii): 
+I helped a third-year student to learn Ruby and
+to develop an introductory network application.
+(For third-year students in School of Sciences)
+\end{enumerate}
+
+\vspace{0.2cm}
+\noindent
+G. 受賞
+
+\begin{enumerate}
+ \item[] {\bf International Programming Contests}
+ \item SamurAI Coding 2014--15, World Final: 6th place, 77th Information
+       Processing Society of Japan National Convention, Kyoto
+       University, Japan, Mar 2015.
+ \item[] {\bf Domestic Programming Contests}
+ \item Code Runner 2015, Final Round: 1st place,
+       Recruit Career, Tokyo, Dec 2015.
+ \item Code Runner 2014, Final Round: 7th place,
+       Recruit Career, Tokyo, Nov 2014.
+ \item Code Festival 2014 AI Challenge, Final Round: 3rd place,
+       Recruit Holdings, Tokyo, Nov 2014.
+\end{enumerate}
+
+\vspace{0.1cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 過去５年の間にありましたら書いて下さい。 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document} 
